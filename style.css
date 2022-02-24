@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@1,700&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville&family=Ubuntu&display=swap");
+body {
+  background-size: cover;
+  background-color: cadetblue;
+}
+
+.heading {
+  margin-top: 0px;
+  width: 100%;
+  position: relative;
+  font-size: 2vw;
+  font-family: "Anton", sans-serif;
+  font-family: "Comic Neue", cursive;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#status,
+#num_obj {
+  font-size: 18px;
+}
+
+.futter {
+  margin-bottom: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: gray;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-family: "Comic Neue", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+canvas {
+  border: 10px solid white;
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  margin-top: 70px;
+  box-shadow: 10px 9px black;
+}
